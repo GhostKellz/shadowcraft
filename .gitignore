@@ -1,3 +1,120 @@
-/target
+# ============================
+# Rust / Cargo
+# ============================
+/target/
 Cargo.lock
 **/*.rs.bk
+*.pdb
+
+# Cargo metadata
+.crates.toml
+.crates2.json
+
+# Profiling / Coverage
+*.profraw
+*.profdata
+coverage/
+tarpaulin-report.html
+
+# ============================
+# Build / CI outputs
+# ============================
+/dist/
+/build/
+/out/
+/tmp/
+/logs/
+*.log
+
+# ============================
+# Database / Search
+# ============================
+*.sqlite
+*.db
+*.dump
+*.bak
+*.old
+tantivy-index/
+index/
+search-data/
+
+# ============================
+# Docker / Compose
+# ============================
+docker-compose.override.yml
+.env
+.env.local
+.env.*.local
+
+# ============================
+# Kubernetes / Helm
+# ============================
+*.release.yaml
+chart/charts/
+values.override.yaml
+
+# ============================
+# Node / Frontend (if UI added later)
+# ============================
+node_modules/
+*.tsbuildinfo
+.next/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# ============================
+# System / Editor junk
+# ============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.swn
+*.swm
+*.kate-swp
+*.orig
+*.rej
+out/
+
+# ============================
+# Certificates / Secrets
+# ============================
+certs/
+secrets/
+*.key
+*.crt
+*.pem
+*.p12
+*.jks
+*.der
+*.gpg
+*.age
+*.asc
+
+# ============================
+# Misc
+# ============================
+tags
+ctags
+cscope.out
+
