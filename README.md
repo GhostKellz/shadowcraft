@@ -1,7 +1,10 @@
+<div align="center">
+  <img src="assets/shadowcraft-logo.png" alt="Shadowcraft Logo" width="400">
+</div>
+
 # Shadowcraft
 
 <div align="center">
-  <img src="assets/icons/shadowcraft-icon.png" alt="shadowcraft icon" width="128" height="128">
 
 **A self‑hosted, Pure‑Rust developer platform — repos, issues/MRs, GPU‑aware CI/CD, and blazing‑fast code search.**
 
